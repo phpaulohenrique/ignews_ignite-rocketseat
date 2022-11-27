@@ -17,7 +17,7 @@ export function SubscribeButton() {
             signIn("github");
             return;
         }
-
+        //@ts-ignore 
         if (session.activeSubscription) {
             router.push("/posts");
             return;
